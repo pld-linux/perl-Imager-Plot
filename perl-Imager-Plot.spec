@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Imager
-%define	pnam	Plot
+%define		pdir	Imager
+%define		pnam	Plot
 Summary:	Imager::Plot - generating fancy graphic plots in color
 Summary(pl):	Imager::Plot - generowanie ozdobnych wykresów w kolorze
 Name:		perl-Imager-Plot
