@@ -10,6 +10,7 @@ Summary(pl):	Imager::Plot - generowanie ozdobnych wykresów w kolorze
 Name:		perl-Imager-Plot
 Version:	0.09
 Release:	1
+# same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
