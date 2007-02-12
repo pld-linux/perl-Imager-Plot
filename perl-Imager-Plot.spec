@@ -6,7 +6,7 @@
 %define		pdir	Imager
 %define		pnam	Plot
 Summary:	Imager::Plot - generating fancy graphic plots in color
-Summary(pl):	Imager::Plot - generowanie ozdobnych wykresÛw w kolorze
+Summary(pl.UTF-8):   Imager::Plot - generowanie ozdobnych wykres√≥w w kolorze
 Name:		perl-Imager-Plot
 Version:	0.09
 Release:	1
@@ -29,11 +29,11 @@ background image. It's even possible to do shadows with some thinking.
 It's also possible to generate clean plots without any chartjunk at
 all.
 
-%description -l pl
-Ten modu≥ s≥uøy do generowania ozdobnych wykresÛw rastrowych w
-kolorze. Obs≥uguje rysowanie wielu zbiorÛw danych na tym samym
-wykresie, ponad tym samym t≥em. Moøna nawet dodaÊ cienie. Moøna teø
-wygenerowaÊ czyste wykresy, bez øadnych za∂miecaczy.
+%description -l pl.UTF-8
+Ten modu≈Ç s≈Çu≈ºy do generowania ozdobnych wykres√≥w rastrowych w
+kolorze. Obs≈Çuguje rysowanie wielu zbior√≥w danych na tym samym
+wykresie, ponad tym samym t≈Çem. Mo≈ºna nawet dodaƒá cienie. Mo≈ºna te≈º
+wygenerowaƒá czyste wykresy, bez ≈ºadnych za≈õmiecaczy.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
