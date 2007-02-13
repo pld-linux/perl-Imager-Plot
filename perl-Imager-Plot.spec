@@ -6,7 +6,7 @@
 %define		pdir	Imager
 %define		pnam	Plot
 Summary:	Imager::Plot - generating fancy graphic plots in color
-Summary(pl.UTF-8):   Imager::Plot - generowanie ozdobnych wykresów w kolorze
+Summary(pl.UTF-8):	Imager::Plot - generowanie ozdobnych wykresów w kolorze
 Name:		perl-Imager-Plot
 Version:	0.09
 Release:	1
