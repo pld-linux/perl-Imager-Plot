@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Imager
 %define		pnam	Plot
+%include	/usr/lib/rpm/macros.perl
 Summary:	Imager::Plot - generating fancy graphic plots in color
 Summary(pl.UTF-8):	Imager::Plot - generowanie ozdobnych wykresów w kolorze
 Name:		perl-Imager-Plot
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	04e91bbff3bf92e28ba939aed3752a12
+URL:		http://search.cpan.org/dist/Imager-Plot/
 BuildRequires:	perl-Imager >= 0.41
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
