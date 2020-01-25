@@ -4,7 +4,6 @@
 
 %define		pdir	Imager
 %define		pnam	Plot
-%include	/usr/lib/rpm/macros.perl
 Summary:	Imager::Plot - generating fancy graphic plots in color
 Summary(pl.UTF-8):	Imager::Plot - generowanie ozdobnych wykresów w kolorze
 Name:		perl-Imager-Plot
